@@ -1,0 +1,30 @@
+1/21/2025
+I will use this file to document my work on the project. My impression of SQL and Azure is that it won't be easy to show much beyond a testable project. 
+Since I want to showcase the development process, I'll be taking notes here.
+
+I created an SQL server using my Azure for Students account. I'm unfamiliar with Azure in general, but I've managed to open the project on
+Azure Data Studio. I'm considering this a good start for today. My first goal will be the construction of the database. I want the database
+to work on an isolated level before I get deep into other Azure tools. I would ideally share the database and server here, but I want to 
+ensure the security is good with permissions and network access first. I don't want other people to edit the server,so I need to look into 
+permissions and things like that.
+
+Database Structure
+I may include a drawing later, but I'll try to include a basic text version here.
+Days-MealMenu-Meals-MealTags
+Meals-MealTagsForbidden
+Days-DrinkMenu-Drinks-DrinkTags
+
+Days:MealMenu - 1:M
+MealMenu:Meals - M:1
+Meals:MealTags - 1:M
+Meals:MealTagsForbidden - 1:M
+Days:DrinkMenu - 1:M
+DrinkMenu:Drinks - M:1
+Drinks:DrinkTags - 1:M
+
+Basic idea is that the database can track daily operations. Days will track each day of operation. 
+The Menu tables are linking tables. They link a given day to meals and drinks offered. Tags are properties of different meals and drinks
+that customers may like or dislike. Users should be able to search meals and drinks to find different types like associated tags or prices,
+and the user can map these to days that the meals and drinks were served alongside profits.
+I'm hoping I can expand this to include different character data as well. I'm also curious how well SQL inherently works with trend-focused data,
+but I'm also planning to use other tools to track this as well.
