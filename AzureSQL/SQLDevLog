@@ -28,3 +28,10 @@ that customers may like or dislike. Users should be able to search meals and dri
 and the user can map these to days that the meals and drinks were served alongside profits.
 I'm hoping I can expand this to include different character data as well. I'm also curious how well SQL inherently works with trend-focused data,
 but I'm also planning to use other tools to track this as well.
+
+1/23/25
+I managed to create tables in the database. I was having some problems because I'm still
+new to how Azure databases are structured. I accidently created a table in the master branch
+because the connections needed to be changed. The default was master, so I needed to manually
+enter the branch/db I was using. The connections in general are still confusing, so I'll probably
+look into them more in the future.
