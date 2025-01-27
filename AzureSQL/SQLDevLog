@@ -35,3 +35,9 @@ new to how Azure databases are structured. I accidently created a table in the m
 because the connections needed to be changed. The default was master, so I needed to manually
 enter the branch/db I was using. The connections in general are still confusing, so I'll probably
 look into them more in the future.
+
+1/27/25
+I started populating the Meals table. It takes a while since I'm entering it manually.
+The only problem I had was that some names had single quotes in them, but I also needed
+to use quotes to enclose the text. I could use two single quotes to bypass this.
+The notepad format is pretty useful for grouping queries.
