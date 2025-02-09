@@ -41,3 +41,15 @@ I started populating the Meals table. It takes a while since I'm entering it man
 The only problem I had was that some names had single quotes in them, but I also needed
 to use quotes to enclose the text. I could use two single quotes to bypass this.
 The notepad format is pretty useful for grouping queries.
+
+
+2/8/25
+I added all the meals to the Meals table. While there are likely better ways to enter the data
+than manual entry, I got some good experience with the formatting. I'm going to add the meal tags
+in next.
+
+Query Ideas
+Most expensive tags?
+How does level relate to cost?
+How does cooking time relate to cost?
+What stations have the longest cooking times?
